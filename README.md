@@ -7,7 +7,7 @@ Simple dependency injection framework
 ### CocoaPods
 
 ```
-pod 'Imjection', :git => "pod 'Imjection', :git => 'https://github.com/monsoir/Imjection.git', :tag => "v1.0.0""
+pod 'Imjection', :git => 'https://github.com/monsoir/Imjection.git', :tag => 'v1.0.0'
 ```
 
 ## How to use

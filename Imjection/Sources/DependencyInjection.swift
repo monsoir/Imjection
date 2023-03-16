@@ -17,7 +17,7 @@ public protocol Provider {
     var value: Self.ValueType { get }
 }
 
-extension Provider {
+public extension Provider {
     var identifier: String { String(describing: type(of: self)) }
 }
 

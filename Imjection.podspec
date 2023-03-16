@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
 
   spec.license      = { :type => "MIT", :file => "LICENSE" }
 
-  spec.author             = { "author" => "author@gmail.com" }
+  spec.author             = { "Monsoir" => "raeyeung.mon@gmail.com" }
   spec.social_media_url   = "https://github.com/monsoir"
 
   spec.swift_version = "5.0"
@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/monsoir/Imjection.git", :branch => "master", :tag => "#{spec.version}" }
 
-  spec.source_files  = ["Imjection/AlphahomSwiftyKit.h", "Imjection/Sources/**/*.swift"]
+  spec.source_files  = ["Imjection/Imjection.h", "Imjection/Sources/**/*.swift"]
 
   spec.requires_arc = true
 
